@@ -7,8 +7,7 @@
 # train1.py
 
 Нейронная сеть состоит из 2 свёрточных слоев. В свёрточных слоях 8, 8 фильтров соответсвенно.
-
- Метрика точности
+Метрика точности
  
 ![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN1-A-88.png)
 
