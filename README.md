@@ -38,11 +38,11 @@
 
 Метрика точности
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN3-A-886.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN3-A-1688.png)
 
 Метрика функции потерь
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN3-L-886.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN3-L-1688.png)
 
 ---
 
@@ -52,11 +52,11 @@
 
 Метрика точности
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN4-A-8866.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN4-A-16888.png)
 
 Метрика функции потерь
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN4-L-8866.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN4-L-16888.png)
 
 ---
 
@@ -66,11 +66,11 @@
 
 Метрика точности
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN5-A-88610.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN5-A-321688.png)
 
 Метрика функции потерь
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN5-L-88610.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN5-L-321688.png)
 
 ---
 
@@ -80,11 +80,11 @@
 
 Метрика точности
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN6-A-88888.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN6-A-3216888.png)
 
 Метрика функции потерь
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN6-L-88888.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN6-L-3216888.png)
 
 ---
 
@@ -94,10 +94,10 @@
 
 Метрика точности
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN7-A-66666.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN7-A-168444.png)
 
 Метрика функции потерь
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN7-L-66666.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN7-L-168444.png)
 
 ---
