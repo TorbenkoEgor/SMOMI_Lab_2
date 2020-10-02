@@ -8,13 +8,13 @@
 
 Модель использует 2 свёрточных слоя. В свёрточных слоях 8, 8 фильтров соответсвенно.
 
-        tf.keras.layers.Input(shape=(224,224,3)),
-        tf.keras.layers.Conv2D(filters=8, kernel_size=3),
-        tf.keras.layers.MaxPool2D(),
-        tf.keras.layers.Conv2D(filters=8, kernel_size=3),
-        tf.keras.layers.MaxPool2D(),
-        tf.keras.layers.Flatten(),
-        tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
+	tf.keras.layers.Input(shape=(224,224,3)),
+	tf.keras.layers.Conv2D(filters=8, kernel_size=3),
+	tf.keras.layers.MaxPool2D(),
+	tf.keras.layers.Conv2D(filters=8, kernel_size=3),
+	tf.keras.layers.MaxPool2D(),
+	tf.keras.layers.Flatten(),
+	tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
 
 Метрика точности
  
@@ -30,15 +30,15 @@
 
 Модель использует 3 свёрточных слоя. В свёрточных слоях 8, 8, 8 фильтров соответсвенно.
 
-        tf.keras.layers.Input(shape=(224,224,3)),
-        tf.keras.layers.Conv2D(filters=8, kernel_size=3),
-        tf.keras.layers.MaxPool2D(),
-        tf.keras.layers.Conv2D(filters=8, kernel_size=3),
-        tf.keras.layers.MaxPool2D(),
-        tf.keras.layers.Conv2D(filters=8, kernel_size=3),
-        tf.keras.layers.MaxPool2D(),
-        tf.keras.layers.Flatten(),
-        tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
+	tf.keras.layers.Input(shape=(224,224,3)),
+	tf.keras.layers.Conv2D(filters=8, kernel_size=3),
+	tf.keras.layers.MaxPool2D(),
+	tf.keras.layers.Conv2D(filters=8, kernel_size=3),
+	tf.keras.layers.MaxPool2D(),
+	tf.keras.layers.Conv2D(filters=8, kernel_size=3),
+	tf.keras.layers.MaxPool2D(),
+	tf.keras.layers.Flatten(),
+	tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
 
 Метрики точности
 
@@ -54,15 +54,15 @@
 
 Модель использует 3 свёрточных слоя. В свёрточных слоях 16, 8, 8 фильтров соответсвенно.
 
-        tf.keras.layers.Input(shape=(224,224,3)),
-        tf.keras.layers.Conv2D(filters=16, kernel_size=3),
-        tf.keras.layers.MaxPool2D(),
-        tf.keras.layers.Conv2D(filters=8, kernel_size=3),
-        tf.keras.layers.MaxPool2D(),
+	tf.keras.layers.Input(shape=(224,224,3)),
+	tf.keras.layers.Conv2D(filters=16, kernel_size=3),
+	tf.keras.layers.MaxPool2D(),
 	tf.keras.layers.Conv2D(filters=8, kernel_size=3),
-        tf.keras.layers.MaxPool2D(),
-        tf.keras.layers.Flatten(),
-        tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
+	tf.keras.layers.MaxPool2D(),
+	tf.keras.layers.Conv2D(filters=8, kernel_size=3),
+	tf.keras.layers.MaxPool2D(),
+	tf.keras.layers.Flatten(),
+	tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
 
 Метрика точности
 
@@ -78,17 +78,17 @@
 
 Модель использует 4 свёрточных слоя. В свёрточных слоях 16, 8, 8, 8 фильтров соответсвенно.
 
-        tf.keras.layers.Input(shape=(224,224,3)),
-        tf.keras.layers.Conv2D(filters=16, kernel_size=3),
-        tf.keras.layers.MaxPool2D(),
-        tf.keras.layers.Conv2D(filters=8, kernel_size=3),
-        tf.keras.layers.MaxPool2D(),
+	tf.keras.layers.Input(shape=(224,224,3)),
+	tf.keras.layers.Conv2D(filters=16, kernel_size=3),
+	tf.keras.layers.MaxPool2D(),
 	tf.keras.layers.Conv2D(filters=8, kernel_size=3),
-       	tf.keras.layers.MaxPool2D(),
+	tf.keras.layers.MaxPool2D(),
 	tf.keras.layers.Conv2D(filters=8, kernel_size=3),
-        tf.keras.layers.MaxPool2D(),
-        tf.keras.layers.Flatten(),
-        tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
+	tf.keras.layers.MaxPool2D(),
+	tf.keras.layers.Conv2D(filters=8, kernel_size=3),
+	tf.keras.layers.MaxPool2D(),
+	tf.keras.layers.Flatten(),
+	tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
 
 Метрика точности
 
@@ -103,17 +103,17 @@
 
 Модель использует 4 свёрточных слоя. В свёрточных слоях 32, 16, 8, 8 фильтров соответсвенно. BATCH_SIZE = 128.
 
-        tf.keras.layers.Input(shape=(224,224,3)),
-        tf.keras.layers.Conv2D(filters=32, kernel_size=3),
-        tf.keras.layers.MaxPool2D(),
-        tf.keras.layers.Conv2D(filters=16, kernel_size=3),
-        tf.keras.layers.MaxPool2D(),
+	tf.keras.layers.Input(shape=(224,224,3)),
+	tf.keras.layers.Conv2D(filters=32, kernel_size=3),
+	tf.keras.layers.MaxPool2D(),
+	tf.keras.layers.Conv2D(filters=16, kernel_size=3),
+	tf.keras.layers.MaxPool2D(),
 	tf.keras.layers.Conv2D(filters=8, kernel_size=3),
 	tf.keras.layers.MaxPool2D(),
 	tf.keras.layers.Conv2D(filters=8, kernel_size=3),
-        tf.keras.layers.MaxPool2D(),
-        tf.keras.layers.Flatten(),
-        tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
+	tf.keras.layers.MaxPool2D(),
+	tf.keras.layers.Flatten(),
+	tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
 
 Метрика точности
 
@@ -129,19 +129,19 @@
 
 Модель использует 5 свёрточных слоев. В свёрточных слоях 32, 16, 8, 8, 8 фильтров соответсвенно. BATCH_SIZE = 128.
 
-        tf.keras.layers.Input(shape=(224,224,3)),
-        tf.keras.layers.Conv2D(filters=32, kernel_size=3),
-        tf.keras.layers.MaxPool2D(),
-        tf.keras.layers.Conv2D(filters=16, kernel_size=3),
-        tf.keras.layers.MaxPool2D(),
+	tf.keras.layers.Input(shape=(224,224,3)),
+	tf.keras.layers.Conv2D(filters=32, kernel_size=3),
+	tf.keras.layers.MaxPool2D(),
+	tf.keras.layers.Conv2D(filters=16, kernel_size=3),
+	tf.keras.layers.MaxPool2D(),
 	tf.keras.layers.Conv2D(filters=8, kernel_size=3),
 	tf.keras.layers.MaxPool2D(),
-       	tf.keras.layers.Conv2D(filters=8, kernel_size=3),
-       	tf.keras.layers.MaxPool2D(),
-       	tf.keras.layers.Conv2D(filters=8, kernel_size=3),
-        tf.keras.layers.MaxPool2D(),
-        tf.keras.layers.Flatten(),
-        tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
+	tf.keras.layers.Conv2D(filters=8, kernel_size=3),
+	tf.keras.layers.MaxPool2D(),
+	tf.keras.layers.Conv2D(filters=8, kernel_size=3),
+	tf.keras.layers.MaxPool2D(),
+	tf.keras.layers.Flatten(),
+	tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
 
 Метрика точности
 
@@ -157,19 +157,19 @@
 
 Модель использует 5 свёрточных слоев. В свёрточных слоях 16, 8, 4, 4, 4 фильтров соответсвенно.
 
-        tf.keras.layers.Input(shape=(224,224,3)),
-        tf.keras.layers.Conv2D(filters=16, kernel_size=3),
-        tf.keras.layers.MaxPool2D(),
-        tf.keras.layers.Conv2D(filters=8, kernel_size=3),
-        tf.keras.layers.MaxPool2D(),
+	tf.keras.layers.Input(shape=(224,224,3)),
+	tf.keras.layers.Conv2D(filters=16, kernel_size=3),
+	tf.keras.layers.MaxPool2D(),
+	tf.keras.layers.Conv2D(filters=8, kernel_size=3),
+	tf.keras.layers.MaxPool2D(),
 	tf.keras.layers.Conv2D(filters=4, kernel_size=3),
-        tf.keras.layers.MaxPool2D(),
+	tf.keras.layers.MaxPool2D(),
 	tf.keras.layers.Conv2D(filters=4, kernel_size=3),
-        tf.keras.layers.MaxPool2D(),
+	tf.keras.layers.MaxPool2D(),
 	tf.keras.layers.Conv2D(filters=4, kernel_size=3),
-        tf.keras.layers.MaxPool2D(),
-        tf.keras.layers.Flatten(),
-        tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
+	tf.keras.layers.MaxPool2D(),
+	tf.keras.layers.Flatten(),
+	tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
 
 Метрика точности
 
