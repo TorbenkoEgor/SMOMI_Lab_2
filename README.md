@@ -24,7 +24,7 @@
 
 Метрики точности
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN2-A-888.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN2-A-1688.png)
 
 Метрика функции потерь
 
