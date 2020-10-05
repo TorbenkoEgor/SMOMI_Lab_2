@@ -16,6 +16,10 @@
 	tf.keras.layers.Flatten(),
 	tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
 
+Тренировочные данные - Синий график
+
+Валидационные данные - Коричневый график
+
 Метрика точности
  
 ![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/Screenshot_1.png)
@@ -40,6 +44,10 @@
 	tf.keras.layers.Flatten(),
 	tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
 
+Тренировочные данные - Голубой график
+
+Валидационные данные - Розовый график
+
 Метрики точности
 
 ![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/Screenshot_3.png)
@@ -63,6 +71,10 @@
 	tf.keras.layers.MaxPool2D(),
 	tf.keras.layers.Flatten(),
 	tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
+
+Тренировочные данные - Коричневый график
+
+Валидационные данные - Голубой график
 
 Метрика точности
 
@@ -90,6 +102,10 @@
 	tf.keras.layers.Flatten(),
 	tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
 
+Тренировочные данные - Розовый график
+
+Валидационные данные - Зелёный график
+
 Метрика точности
 
 ![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/Screenshot_8.png)
@@ -114,6 +130,10 @@
 	tf.keras.layers.MaxPool2D(),
 	tf.keras.layers.Flatten(),
 	tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
+
+Тренировочные данные - Коричневый график
+
+Валидационные данные - Голубой график
 
 Метрика точности
 
@@ -143,6 +163,10 @@
 	tf.keras.layers.Flatten(),
 	tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
 
+Тренировочные данные - Розовый график 
+
+Валидационные данные - Зелёный график
+
 Метрика точности
 
 ![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/Screenshot_13.png)
@@ -170,6 +194,10 @@
 	tf.keras.layers.MaxPool2D(),
 	tf.keras.layers.Flatten(),
 	tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
+
+Тренировочные данные - Серебристый график
+
+Валидационные данные - Оранжевый график
 
 Метрика точности
 
