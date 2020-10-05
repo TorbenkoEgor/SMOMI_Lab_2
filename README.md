@@ -1,6 +1,6 @@
 ## Лабораторная работа №2
 
-При описании нейронных сетей описывались только Conv2D слои. Input, MaxPool2D, Flatten, Dense используются, но не описываются. По умолчанию BATCH_SIZE = 512, lr = 0.000001.
+При описании нейронных сетей описывались только Conv2D слои. Input, MaxPool2D, Flatten, Dense используются, но не описываются. По умолчанию BATCH_SIZE = 256, lr = 0.000001.
 
 ---
 
@@ -52,12 +52,12 @@
 
 # train3.py
 
-Модель использует 3 свёрточных слоя. В свёрточных слоях 16, 8, 8 фильтров соответсвенно.
+Модель использует 3 свёрточных слоя. В свёрточных слоях 32, 16, 8 фильтров соответсвенно.
 
 	tf.keras.layers.Input(shape=(224,224,3)),
-	tf.keras.layers.Conv2D(filters=16, kernel_size=3),
+	tf.keras.layers.Conv2D(filters=32, kernel_size=3),
 	tf.keras.layers.MaxPool2D(),
-	tf.keras.layers.Conv2D(filters=8, kernel_size=3),
+	tf.keras.layers.Conv2D(filters=16, kernel_size=3),
 	tf.keras.layers.MaxPool2D(),
 	tf.keras.layers.Conv2D(filters=8, kernel_size=3),
 	tf.keras.layers.MaxPool2D(),
@@ -76,12 +76,12 @@
 
 # train4.py
 
-Модель использует 4 свёрточных слоя. В свёрточных слоях 16, 8, 8, 8 фильтров соответсвенно.
+Модель использует 4 свёрточных слоя. В свёрточных слоях 32, 16, 8, 8 фильтров соответсвенно.
 
 	tf.keras.layers.Input(shape=(224,224,3)),
-	tf.keras.layers.Conv2D(filters=16, kernel_size=3),
+	tf.keras.layers.Conv2D(filters=32, kernel_size=3),
 	tf.keras.layers.MaxPool2D(),
-	tf.keras.layers.Conv2D(filters=8, kernel_size=3),
+	tf.keras.layers.Conv2D(filters=16, kernel_size=3),
 	tf.keras.layers.MaxPool2D(),
 	tf.keras.layers.Conv2D(filters=8, kernel_size=3),
 	tf.keras.layers.MaxPool2D(),
@@ -101,14 +101,14 @@
 
 # train5.py
 
-Модель использует 4 свёрточных слоя. В свёрточных слоях 32, 16, 8, 8 фильтров соответсвенно. BATCH_SIZE = 128.
+Модель использует 4 свёрточных слоя. В свёрточных слоях 32, 32, 16, 8 фильтров соответсвенно.
 
 	tf.keras.layers.Input(shape=(224,224,3)),
 	tf.keras.layers.Conv2D(filters=32, kernel_size=3),
 	tf.keras.layers.MaxPool2D(),
-	tf.keras.layers.Conv2D(filters=16, kernel_size=3),
+	tf.keras.layers.Conv2D(filters=32, kernel_size=3),
 	tf.keras.layers.MaxPool2D(),
-	tf.keras.layers.Conv2D(filters=8, kernel_size=3),
+	tf.keras.layers.Conv2D(filters=16, kernel_size=3),
 	tf.keras.layers.MaxPool2D(),
 	tf.keras.layers.Conv2D(filters=8, kernel_size=3),
 	tf.keras.layers.MaxPool2D(),
@@ -127,7 +127,7 @@
 
 # train6.py
 
-Модель использует 5 свёрточных слоев. В свёрточных слоях 32, 16, 8, 8, 8 фильтров соответсвенно. BATCH_SIZE = 128.
+Модель использует 5 свёрточных слоев. В свёрточных слоях 32, 32, 16, 8, 8 фильтров соответсвенно.
 
 	tf.keras.layers.Input(shape=(224,224,3)),
 	tf.keras.layers.Conv2D(filters=32, kernel_size=3),
@@ -155,18 +155,18 @@
 
 # train7.py
 
-Модель использует 5 свёрточных слоев. В свёрточных слоях 16, 8, 4, 4, 4 фильтров соответсвенно.
+Модель использует 5 свёрточных слоев. В свёрточных слоях 32, 32, 16, 16, 8 фильтров соответсвенно.
 
 	tf.keras.layers.Input(shape=(224,224,3)),
+	tf.keras.layers.Conv2D(filters=32, kernel_size=3),
+	tf.keras.layers.MaxPool2D(),
+	tf.keras.layers.Conv2D(filters=32, kernel_size=3),
+	tf.keras.layers.MaxPool2D(),
+	tf.keras.layers.Conv2D(filters=16, kernel_size=3),
+	tf.keras.layers.MaxPool2D(),
 	tf.keras.layers.Conv2D(filters=16, kernel_size=3),
 	tf.keras.layers.MaxPool2D(),
 	tf.keras.layers.Conv2D(filters=8, kernel_size=3),
-	tf.keras.layers.MaxPool2D(),
-	tf.keras.layers.Conv2D(filters=4, kernel_size=3),
-	tf.keras.layers.MaxPool2D(),
-	tf.keras.layers.Conv2D(filters=4, kernel_size=3),
-	tf.keras.layers.MaxPool2D(),
-	tf.keras.layers.Conv2D(filters=4, kernel_size=3),
 	tf.keras.layers.MaxPool2D(),
 	tf.keras.layers.Flatten(),
 	tf.keras.layers.Dense(NUM_CLASSES, activation=tf.keras.activations.softmax)
