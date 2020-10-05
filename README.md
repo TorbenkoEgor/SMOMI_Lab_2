@@ -18,11 +18,11 @@
 
 Метрика точности
  
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN1-A-88.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/Screenshot_1.png)
 
 Метрика функции потерь
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN1-L-88.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/Screenshot_2.png)
 
 ---
 
@@ -42,11 +42,11 @@
 
 Метрики точности
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN2-A-1688.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/Screenshot_3.png)
 
 Метрика функции потерь
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN2-L-888.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/Screenshot_4.png)
 
 ---
 
@@ -66,11 +66,11 @@
 
 Метрика точности
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN3-A-1688.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/Screenshot_6.png)
 
 Метрика функции потерь
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN3-L-1688.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/Screenshot_7.png)
 
 ---
 
@@ -92,11 +92,11 @@
 
 Метрика точности
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN4-A-16888.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/Screenshot_8.png)
 
 Метрика функции потерь
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN4-L-16888.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/Screenshot_9.png)
 ---
 
 # train5.py
@@ -117,11 +117,11 @@
 
 Метрика точности
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN5-A-321688.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/Screenshot_11.png)
 
 Метрика функции потерь
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN5-L-321688.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/Screenshot_12.png)
 
 ---
 
@@ -145,11 +145,11 @@
 
 Метрика точности
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN6-A-3216888.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/Screenshot_13.png)
 
 Метрика функции потерь
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN6-L-3216888.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/Screenshot_14.png)
 
 ---
 
@@ -173,10 +173,10 @@
 
 Метрика точности
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN7-A-168444.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/Screenshot_15.png)
 
 Метрика функции потерь
 
-![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/NN7-L-168444.png)
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/Screenshot_16.png)
 
 ---
