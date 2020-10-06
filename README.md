@@ -84,6 +84,28 @@
 
 ![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/Screenshot_7.png)
 
+Переобученная сеть
+
+Метрики точности 
+
+Тренировочные данные
+
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/lab2-3-1.png)
+
+Валидационные данные
+
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/lab2-3-3.png)
+
+Метрики функции потерь
+
+Тренировочные данные
+
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/lab2-3-2.png)
+
+Валидационные данные
+
+![Image alt](https://github.com/TorbenkoEgor/SMOMI_Lab_2/blob/master/logs/lab2-3-4.png)
+
 ---
 
 # train4.py
